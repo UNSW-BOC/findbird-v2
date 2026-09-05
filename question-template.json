@@ -1,0 +1,25 @@
+{
+  "example.jpg0": {
+    "filename": "example.jpg",
+    "size": 0,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 100,
+          "y": 100,
+          "width": 80,
+          "height": 60
+        },
+        "region_attributes": {
+          "nameZh": "中文名",
+          "nameEn": "English name",
+          "scientificName": "Scientific name"
+        }
+      }
+    ],
+    "file_attributes": {
+      "difficulty": "easy"
+    }
+  }
+}
