@@ -40,6 +40,36 @@
     ]
   },
   {
+    "id": "wechatimg13236",
+    "filename": "WechatIMG13236.jpg",
+    "image": "questions/WechatIMG13236.jpg",
+    "difficulty": "medium",
+    "sourceWidth": 4512,
+    "sourceHeight": 3008,
+    "targets": [
+      {
+        "x": 1627,
+        "y": 1549,
+        "width": 113,
+        "height": 70,
+        "nameZh": "红腰鹦鹉",
+        "nameEn": "Red-rumped Parrot",
+        "scientificName": "Psephotus haematonotus",
+        "id": "wechatimg13236-target-1"
+      },
+      {
+        "x": 3065,
+        "y": 1605,
+        "width": 160,
+        "height": 83,
+        "nameZh": "红腰鹦鹉",
+        "nameEn": "Red-rumped Parrot",
+        "scientificName": "Psephotus haematonotus",
+        "id": "wechatimg13236-target-2"
+      }
+    ]
+  },
+  {
     "id": "wechatimg13269",
     "filename": "WechatIMG13269.jpg",
     "image": "questions/WechatIMG13269.jpg",
@@ -76,6 +106,46 @@
         "nameEn": "Raven",
         "scientificName": "Corvus coronodies",
         "id": "wechatimg13270-target-1"
+      }
+    ]
+  },
+  {
+    "id": "wechatimg13434",
+    "filename": "WechatIMG13434.jpg",
+    "image": "questions/WechatIMG13434.jpg",
+    "difficulty": "medium",
+    "sourceWidth": 8192,
+    "sourceHeight": 4289,
+    "targets": [
+      {
+        "x": 2331,
+        "y": 3384,
+        "width": 263,
+        "height": 235,
+        "nameZh": "红顶鸻",
+        "nameEn": "Red-capped Plover",
+        "scientificName": "Anarhynchus ruficapillus",
+        "id": "wechatimg13434-target-1"
+      }
+    ]
+  },
+  {
+    "id": "wechatimg13448",
+    "filename": "WechatIMG13448.jpg",
+    "image": "questions/WechatIMG13448.jpg",
+    "difficulty": "easy",
+    "sourceWidth": 8192,
+    "sourceHeight": 5464,
+    "targets": [
+      {
+        "x": 3628,
+        "y": 2284,
+        "width": 846,
+        "height": 1128,
+        "nameZh": "彩虹蜂虎",
+        "nameEn": "Rainbow bee-eater",
+        "scientificName": "Merops ornatus",
+        "id": "wechatimg13448-target-1"
       }
     ]
   },

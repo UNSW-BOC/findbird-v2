@@ -1,25 +1,17 @@
 {
-  "source": "/Users/huangziheng/Desktop/BOC/FindBird/new_photo",
-  "generatedAt": "2026-09-04T15:57:19.752Z",
+  "source": "/Users/huangziheng/Desktop/BOC/FindBird/photo_v2",
+  "generatedAt": "2026-09-05T11:43:02.132Z",
   "imported": [
-    "c8a6ecb73afa95e4151a217d92a66f58.jpg",
-    "f853c1e1839561e482291ae11c24ba69.jpg",
-    "WechatIMG323.jpg",
-    "WechatIMG326.jpg",
-    "WechatIMG328.jpg",
-    "WechatIMG336.jpg",
-    "WechatIMG337.jpg",
-    "WechatIMG340.jpg",
-    "WechatIMG343.jpg",
-    "WechatIMG13269.jpg",
-    "WechatIMG13270.jpg"
+    "WechatIMG13236.jpg",
+    "WechatIMG13434.jpg",
+    "WechatIMG13448.jpg"
   ],
   "skipped": [],
   "errors": [],
   "unmatchedImages": [],
   "missingImages": [],
   "summary": {
-    "success": 11,
+    "success": 3,
     "skipped": 0,
     "errors": 0
   }
