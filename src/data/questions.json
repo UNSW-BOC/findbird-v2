@@ -20,6 +20,286 @@
     ]
   },
   {
+    "id": "dsc02181",
+    "filename": "DSC02181.jpg",
+    "image": "questions/DSC02181.jpg",
+    "difficulty": "hard",
+    "sourceWidth": 6000,
+    "sourceHeight": 4000,
+    "targets": [
+      {
+        "x": 2835,
+        "y": 1660,
+        "width": 228,
+        "height": 194,
+        "nameZh": "长趾滨鹬",
+        "nameEn": "Long-toed Stint",
+        "scientificName": "Calidris subminuta",
+        "id": "dsc02181-target-1"
+      },
+      {
+        "x": 5732,
+        "y": 1711,
+        "width": 131,
+        "height": 120,
+        "nameZh": "长趾滨鹬",
+        "nameEn": "Long-toed Stint",
+        "scientificName": "Calidris subminuta",
+        "id": "dsc02181-target-2"
+      }
+    ]
+  },
+  {
+    "id": "dsc02241",
+    "filename": "DSC02241.jpg",
+    "image": "questions/DSC02241.jpg",
+    "difficulty": "medium",
+    "sourceWidth": 6000,
+    "sourceHeight": 4000,
+    "targets": [
+      {
+        "x": 2709,
+        "y": 1346,
+        "width": 542,
+        "height": 405,
+        "nameZh": "翻石鹬",
+        "nameEn": "Ruddy Trunstone",
+        "scientificName": "Arenaria interpres",
+        "id": "dsc02241-target-1"
+      },
+      {
+        "x": 730,
+        "y": 1631,
+        "width": 525,
+        "height": 319,
+        "nameZh": "长趾滨鹬",
+        "nameEn": "Long-toed Stint",
+        "scientificName": "Long-toed Stint",
+        "id": "dsc02241-target-2"
+      }
+    ]
+  },
+  {
+    "id": "dsc02308",
+    "filename": "DSC02308.jpg",
+    "image": "questions/DSC02308.jpg",
+    "difficulty": "easy",
+    "sourceWidth": 6000,
+    "sourceHeight": 4000,
+    "targets": [
+      {
+        "x": 2766,
+        "y": 2076,
+        "width": 376,
+        "height": 205,
+        "nameZh": "翻石鹬",
+        "nameEn": "Ruddy Trunstone",
+        "scientificName": "Ruddy Trunstone",
+        "id": "dsc02308-target-1"
+      }
+    ]
+  },
+  {
+    "id": "dsc02600",
+    "filename": "DSC02600.jpg",
+    "image": "questions/DSC02600.jpg",
+    "difficulty": "easy",
+    "sourceWidth": 6000,
+    "sourceHeight": 4000,
+    "targets": [
+      {
+        "x": 2789,
+        "y": 1580,
+        "width": 759,
+        "height": 827,
+        "nameZh": "黄脸吸蜜鸟",
+        "nameEn": "Yellow-faced honeyeater",
+        "scientificName": "Caligavis chrysops",
+        "id": "dsc02600-target-1"
+      }
+    ]
+  },
+  {
+    "id": "dsc02601",
+    "filename": "DSC02601.jpg",
+    "image": "questions/DSC02601.jpg",
+    "difficulty": "easy",
+    "sourceWidth": 6000,
+    "sourceHeight": 4000,
+    "targets": [
+      {
+        "x": 2646,
+        "y": 1620,
+        "width": 838,
+        "height": 747,
+        "nameZh": "黄脸吸蜜鸟",
+        "nameEn": "Yellow-faced honeyeater",
+        "scientificName": "Caligavis chrysops",
+        "id": "dsc02601-target-1"
+      }
+    ]
+  },
+  {
+    "id": "dsc02630",
+    "filename": "DSC02630.jpg",
+    "image": "questions/DSC02630.jpg",
+    "difficulty": "medium",
+    "sourceWidth": 6000,
+    "sourceHeight": 4000,
+    "targets": [
+      {
+        "x": 2281,
+        "y": 1551,
+        "width": 810,
+        "height": 354,
+        "nameZh": "褐刺嘴莺",
+        "nameEn": "Brown Thornbill",
+        "scientificName": "Acanthiza pusilla",
+        "id": "dsc02630-target-1"
+      }
+    ]
+  },
+  {
+    "id": "dsc02983",
+    "filename": "DSC02983.jpg",
+    "image": "questions/DSC02983.jpg",
+    "difficulty": "easy",
+    "sourceWidth": 6000,
+    "sourceHeight": 4000,
+    "targets": [
+      {
+        "x": 2418,
+        "y": 1175,
+        "width": 696,
+        "height": 1637,
+        "nameZh": "灰钟鹊",
+        "nameEn": "Gray butcherbird",
+        "scientificName": "Cracticus torquatus",
+        "id": "dsc02983-target-1"
+      }
+    ]
+  },
+  {
+    "id": "dsc03020",
+    "filename": "DSC03020.jpg",
+    "image": "questions/DSC03020.jpg",
+    "difficulty": "easy",
+    "sourceWidth": 6000,
+    "sourceHeight": 4000,
+    "targets": [
+      {
+        "x": 2356,
+        "y": 1471,
+        "width": 1329,
+        "height": 804,
+        "nameZh": "黑凤头鹦鹉",
+        "nameEn": "Yellow-tailed Black Cockatoo",
+        "scientificName": "Zanda funerea",
+        "id": "dsc03020-target-1"
+      }
+    ]
+  },
+  {
+    "id": "dsc03032",
+    "filename": "DSC03032.jpg",
+    "image": "questions/DSC03032.jpg",
+    "difficulty": "medium",
+    "sourceWidth": 6000,
+    "sourceHeight": 4000,
+    "targets": [
+      {
+        "x": 2538,
+        "y": 1437,
+        "width": 713,
+        "height": 741,
+        "nameZh": "灰胸绣眼鸟",
+        "nameEn": "Silver Eye",
+        "scientificName": "Zosterops lateralis",
+        "id": "dsc03032-target-1"
+      }
+    ]
+  },
+  {
+    "id": "dsc04144",
+    "filename": "DSC04144.jpg",
+    "image": "questions/DSC04144.jpg",
+    "difficulty": "medium",
+    "sourceWidth": 6000,
+    "sourceHeight": 4000,
+    "targets": [
+      {
+        "x": 2926,
+        "y": 1489,
+        "width": 502,
+        "height": 371,
+        "nameZh": "灰胸绣眼鸟",
+        "nameEn": "Silver Eye",
+        "scientificName": "Zosterops lateralis",
+        "id": "dsc04144-target-1"
+      }
+    ]
+  },
+  {
+    "id": "dsc04243",
+    "filename": "DSC04243-已增强-降噪.jpg",
+    "image": "questions/DSC04243-已增强-降噪.jpg",
+    "difficulty": "medium",
+    "sourceWidth": 6000,
+    "sourceHeight": 4000,
+    "targets": [
+      {
+        "x": 2755,
+        "y": 1814,
+        "width": 787,
+        "height": 365,
+        "nameZh": "黑白扇尾鹟",
+        "nameEn": "Willie Wagtail",
+        "scientificName": "Rhipidura leucophrys",
+        "id": "dsc04243-target-1"
+      }
+    ]
+  },
+  {
+    "id": "dsc04799",
+    "filename": "DSC04799.jpg",
+    "image": "questions/DSC04799.jpg",
+    "difficulty": "easy",
+    "sourceWidth": 6000,
+    "sourceHeight": 4000,
+    "targets": [
+      {
+        "x": 2584,
+        "y": 2224,
+        "width": 382,
+        "height": 211,
+        "nameZh": "金啸鹟",
+        "nameEn": "Golden Whilstler",
+        "scientificName": "Pachycephala pectoralis",
+        "id": "dsc04799-target-1"
+      }
+    ]
+  },
+  {
+    "id": "dsc04897",
+    "filename": "DSC04897.jpg",
+    "image": "questions/DSC04897.jpg",
+    "difficulty": "hard",
+    "sourceWidth": 6000,
+    "sourceHeight": 4000,
+    "targets": [
+      {
+        "x": 2783,
+        "y": 1591,
+        "width": 154,
+        "height": 240,
+        "nameZh": "黄翅灰吸蜜鸟",
+        "nameEn": "Fuscous Honeyeater",
+        "scientificName": "Ptilotula fusca",
+        "id": "dsc04897-target-1"
+      }
+    ]
+  },
+  {
     "id": "f853c1e1839561e482291ae11c24ba69",
     "filename": "f853c1e1839561e482291ae11c24ba69.jpg",
     "image": "questions/f853c1e1839561e482291ae11c24ba69.jpg",

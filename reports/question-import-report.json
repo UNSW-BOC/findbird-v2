@@ -1,17 +1,27 @@
 {
-  "source": "/Users/huangziheng/Desktop/BOC/FindBird/photo_v2",
-  "generatedAt": "2026-09-05T11:43:02.132Z",
+  "source": "/Users/huangziheng/Desktop/BOC/FindBird/findbird-v2/question-import",
+  "generatedAt": "2026-09-05T14:06:20.926Z",
   "imported": [
-    "WechatIMG13236.jpg",
-    "WechatIMG13434.jpg",
-    "WechatIMG13448.jpg"
+    "DSC02181.jpg",
+    "DSC02241.jpg",
+    "DSC02308.jpg",
+    "DSC02600.jpg",
+    "DSC02601.jpg",
+    "DSC02630.jpg",
+    "DSC02983.jpg",
+    "DSC03020.jpg",
+    "DSC03032.jpg",
+    "DSC04144.jpg",
+    "DSC04243-已增强-降噪.jpg",
+    "DSC04799.jpg",
+    "DSC04897.jpg"
   ],
   "skipped": [],
   "errors": [],
   "unmatchedImages": [],
   "missingImages": [],
   "summary": {
-    "success": 3,
+    "success": 13,
     "skipped": 0,
     "errors": 0
   }
