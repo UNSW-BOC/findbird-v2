@@ -7,6 +7,7 @@ import type { Question, RoundResult, Target } from './types';
 const questions = questionsJson as Question[];
 const assetUrl = (path: string) => `${import.meta.env.BASE_URL}${path}`;
 const LANGUAGE_STORAGE_KEY = 'findbird-language';
+const RESULT_CROP_ASPECT_RATIO = 4 / 3;
 
 type Screen = 'welcome' | 'game' | 'results' | 'error';
 type RoundPhase = 'loading' | 'intro' | 'playing' | 'complete' | 'timeout';
@@ -544,17 +545,23 @@ function ResultsScreen({ language, results, onLanguageChange, onReplay }: { lang
 }
 
 function BirdCrop({ language, question, target }: { language: Language; question: Question; target: Target }) {
-  const paddingX = target.width * 0.8;
-  const paddingY = target.height * 0.8;
-  const cropX = Math.max(0, target.x - paddingX);
-  const cropY = Math.max(0, target.y - paddingY);
-  const cropRight = Math.min(question.sourceWidth, target.x + target.width + paddingX);
-  const cropBottom = Math.min(question.sourceHeight, target.y + target.height + paddingY);
-  const cropWidth = cropRight - cropX;
-  const cropHeight = cropBottom - cropY;
+  let cropWidth = target.width * 2.6;
+  let cropHeight = target.height * 2.6;
+
+  if (cropWidth / cropHeight > RESULT_CROP_ASPECT_RATIO) cropHeight = cropWidth / RESULT_CROP_ASPECT_RATIO;
+  else cropWidth = cropHeight * RESULT_CROP_ASPECT_RATIO;
+
+  const fitScale = Math.min(1, question.sourceWidth / cropWidth, question.sourceHeight / cropHeight);
+  cropWidth *= fitScale;
+  cropHeight *= fitScale;
+
+  const targetCenterX = target.x + target.width / 2;
+  const targetCenterY = target.y + target.height / 2;
+  const cropX = Math.min(Math.max(0, targetCenterX - cropWidth / 2), question.sourceWidth - cropWidth);
+  const cropY = Math.min(Math.max(0, targetCenterY - cropHeight / 2), question.sourceHeight - cropHeight);
 
   return (
-    <div className="bird-crop" style={{ aspectRatio: `${cropWidth} / ${cropHeight}` }}>
+    <div className="bird-crop" style={{ aspectRatio: `${RESULT_CROP_ASPECT_RATIO}` }}>
       <img
         src={assetUrl(question.image)}
         alt={cropAltText(language, target.nameZh, target.nameEn)}

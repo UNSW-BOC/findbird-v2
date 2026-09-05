@@ -164,7 +164,7 @@ img { display: block; max-width: 100%; }
 .result-data b { margin-top: 4px; font: 800 16px ui-monospace, monospace; }
 .answer-grid { padding: 18px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
 .bird-answer { min-width: 0; padding: 8px; display: grid; grid-template-columns: minmax(145px, .72fr) 1fr; align-items: center; gap: 18px; border: 1px solid var(--line); border-radius: 15px; }
-.bird-crop { min-height: 126px; max-height: 190px; overflow: hidden; position: relative; border-radius: 10px; background: #c8d2ca; }
+.bird-crop { width: 100%; min-width: 0; max-width: 100%; overflow: hidden; position: relative; border-radius: 10px; background: #c8d2ca; }
 .bird-crop img { position: absolute; max-width: none; height: auto; }
 .bird-names { min-width: 0; padding-right: 10px; }
 .bird-names > span { display: inline-block; margin-bottom: 10px; padding: 5px 7px; border-radius: 5px; font-size: 12px; font-weight: 800; }
@@ -173,6 +173,7 @@ img { display: block; max-width: 100%; }
 .bird-names h3 { margin: 0 0 4px; font: 500 25px Georgia, "Songti SC", serif; }
 .bird-names p { margin: 0; font-size: 12px; font-weight: 700; }
 .bird-names em { display: block; margin-top: 5px; color: var(--muted); font: italic 12px Georgia, serif; }
+.bird-names h3, .bird-names p, .bird-names em { overflow-wrap: anywhere; }
 .results-footer { padding: 34px clamp(22px, 7vw, 112px); display: flex; align-items: center; justify-content: space-between; color: white; background: var(--forest); font-size: 12px; }
 
 @keyframes spin { to { transform: rotate(360deg); } }
@@ -226,7 +227,6 @@ img { display: block; max-width: 100%; }
   .result-data b { font-size: 13px; }
   .answer-grid { padding: 10px; }
   .bird-answer { grid-template-columns: 42% 1fr; gap: 12px; }
-  .bird-crop { min-height: 112px; }
   .bird-names h3 { font-size: 21px; }
   .results-footer { gap: 18px; }
   .results-footer > span { display: none; }
@@ -242,7 +242,6 @@ img { display: block; max-width: 100%; }
   .game-facts { gap: 14px; }
   .miss-stat { padding-inline: 7px; }
   .bird-answer { grid-template-columns: 1fr; }
-  .bird-crop { max-height: 210px; }
   .bird-names { padding: 2px 5px 8px; }
 }
 
